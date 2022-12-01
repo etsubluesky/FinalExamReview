@@ -6,6 +6,12 @@ namespace FinalExamReview
     {
         static void Main(string[] args)
         {
+            Canine deeogee = new Canine();
+
+            deeogee.Name = "DeeOgee";
+            deeogee.HairLength = 'l';
+
+
             int choice;
             int choiceForNewSubMenu;
 
